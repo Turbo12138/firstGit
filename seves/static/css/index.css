@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#373737; margin:0;}
+.height{height: 90px}
+.clear{ clear:both;}
+.display{display: none}
+a { text-decoration:none;}
+.main{ width:1200px; margin:0 auto;}
+.main .top-1{ height:70px;}
+.main .top-2{ text-align:center;}
+.main .head { margin-top:25px;}
+.main .head p{ font-size:12px; color:#7DC2D8; text-align:center; margin:0; margin-top:6px;text-shadow: #2F2F2F 0 4px 0; font-weight:bold;}
+.main .head p.text-3{ margin-top:20px;}
+.main .middle{; margin-top:40px;}
+.main .middle form{ width:800px; margin-left: 422px;}
+.main .middle form p.margin { margin-left:-15px;}
+.main .middle span{ font-size:16px; color:#B5B5B5;text-shadow: #2F2F2F 0 3px 0;}
+.main .middle span.errorColor{ font-size:12px;color:red}
+.main .middle span.rightColor{font-size:12px;color:#08c}
+.main .middle input{ border:0; background:#2B2B2B; width:268px; height:32px; padding-left:10px; font-size:16px; color:#FFF;}
+.main .middle span.text-4{margin-left: 50px; float:left; }
+.main .middle span.text-5{ float:right;}
+.main .middle span.text-5 a{ margin-right:482px;}
+.main .middle a{ font-size:14px;  color:#7DC2D8; }
+.main .middle input.input-1{ float:left; width:90px; height:33px; background:#0493BE; margin-left:50px; margin-top:20px; font-size:14px; font-family:黑体; color:#FFF;border:1px solid #2F2F2F; cursor:pointer;}
+.main .middle input.input-2{margin-left:24px; width:156px;}
+.main .middle input.input-1:hover{ background:#2f2f2f; border:1px solid #0493BE; border-radius:2px;}
+.main .middle input.input-1-1{ float:left; width:270px; height:33px; background:#0493BE; margin-left:35px; margin-top:20px; font-size:14px; font-family:黑体; color:#FFF;border:1px solid #2F2F2F; cursor:pointer;}
+.main .middle input.input-1-1:hover{ background:#2f2f2f; border:1px solid #0493BE; border-radius:2px;}
+.main .middle input .personal{width: 120px;margin-left: 45px}
+.main .middle input.input-1-2{ float:left; width:153px; height:33px; background:#0493BE; margin-left:35px; margin-top:20px; font-size:14px; font-family:黑体; color:#FFF;border:1px solid #2F2F2F; cursor:pointer;}
+.main .middle input.input-1-2:hover{ background:#2f2f2f; border:1px solid #0493BE; border-radius:2px;}
+.main .middle input.input-1-3{ float:left; width:80px; height:33px; background:#0493BE; margin-left:35px; margin-top:20px; font-size:14px; font-family:黑体; color:#FFF;border:1px solid #2F2F2F; cursor:pointer;}
+.main .middle input.input-1-3:hover{ background:#2f2f2f; border:1px solid #0493BE; border-radius:2px;}
+.main .bottom { font-family:黑体; font-size:12px;color:#B5B5B5; position:absolute; bottom:10px; padding-left:20px;}
+.main .bottom .left { width:508px; float:left;}
+.main .bottom .left span{ color:#7DC2D8;}
+.main .bottom .middle { float:left; margin:0;}
+.main .bottom .middle a {background:url(../images/photo.png) no-repeat -6px -66px; display:block; height:45px; float:left; width:40px;}
+.main .bottom .right{ float:left;}
+.main .bottom .right ul{margin:0; padding:0; list-style:none;}
+.main .bottom .right ul li{ float:left; line-height:45px; margin-left:15px;}
+.main .bottom .right ul li a{ color:#b5b5b5;}
+.overflow{overflow: hidden;height: 450px}
+.main .middle input.active{background:#2f2f2f; border:1px solid #0493BE; border-radius:2px;}
+.main .middle input.personal{width: 118px}
+.main .middle input.enterprise{width: 118px;margin-left: 30px}
+.main .middle input.registered{margin-left: 50px}
+.glyphicon-remove-circle:before {float:left;content: "\e088";}
+.glyphicon-ok-circle:before {
+    content: "\e089";;
+}
+.distenceP{margin-top: 20px}
+/*.glyphicon {*/
+    /*position: relative;*/
+    /*top: 1px;*/
+    /*display: inline-block;*/
+    /*font-family: 'Glyphicons Halflings';*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 1;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+/*@font-face {*/
+    /*font-family: 'Glyphicons Halflings';*/
+    /*src: url(../fonts/glyphicons-halflings-regular.eot);*/
+    /*src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')*/
+/*}*/
+.fine{margin-left: 10px}
+.main .middle form p.margin .judgeColor{color:#09f}
+.main .middle form p.margin .judgeErrorColor{color:#f00}
+.spanWidth{width: 64px;height: 16px;display: block;float: left;margin-top: 4px}
+.spanWidths{width: 64px;height: 16px;display: block;float: left;margin-top:4px}
+.main .bottom .left .marginPTop{margin-top:15px}
+#animate{position:absolute;top:50%;left:50%;width:280px;height:100px;margin:-50px 0 0 -140px;border-radius:5px;line-height:100px;text-align:center;color:#fff;background:#71acb9;}
+.main .middle .tipLeft{margin-left: 20px}
